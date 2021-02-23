@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>APP TAB EXEMPLE | Pseudo</title>
+    <style>
+        .tabs{
+            /*border: 1px dotted black;*/
+            list-style: none;
+            padding: 10px;
+            margin: 20px;
+        }
+        .tabs-item{
+            border: 1px solid #e6e6e6;
+            border-radius: 5px;
+            display: inline-block;
+            padding: 20px 10px;
+            margin: 5px;
+            text-align: center;
+            transform: 0.35s;
+            height: 90px;
+        }
+        .tabs-item:hover{
+            background-color: #cccccc;
+            transition: 0.35s;
+        }
+        .tabs-img{
+            margin-bottom: 20px;
+
+        }
+        .tabs-link{
+            text-decoration: none;
+            color: #333;
+        }
+        .tabs-options{
+            font-size: 30px;
+            line-height: 5px;
+            background-color: #999999;
+            height: 30px;
+            width: 30px;
+            border-radius: 15px;
+            opacity: 0.0;
+            transform: translateY(-109px) translateX(75px);
+        }
+        .tabs-options:hover{
+            opacity: 1.0;
+        
+        }
+    </style>
+</head>
+<body>
+
+    <ul class="tabs">
+        <li class="tabs-item" title="access this account">
+            <a class="tabs-link" href="#">
+                <img class="tabs-img" src="https://icons.iconarchive.com/icons/bokehlicia/captiva/48/web-github-icon.png" alt="">
+                <br>
+                username_here
+            </a>
+            <div class="tabs-options">
+                .<br>.<br>.<br>
+            </div>
+        </li>
+
+        <li class="tabs-item" title="access this account">
+            <a class="tabs-link" href="#">
+                <img class="tabs-img" src="https://icons.iconarchive.com/icons/dakirby309/simply-styled/48/Google-Translate-icon.png" alt="">
+                <br>
+                translate_name
+            </a>
+            <div class="tabs-options">
+                .<br>.<br>.<br>
+            </div>
+        </li>
+
+        <li class="tabs-item" title="access this account">
+            <a class="tabs-link" href="#">
+                <img class="tabs-img" src="https://icons.iconarchive.com/icons/dakirby309/simply-styled/48/YouTube-icon.png" alt="">
+                <br>
+                YouTube_name
+            </a>
+            <div class="tabs-options">
+                .<br>.<br>.<br>
+            </div>
+        </li>
+    </ul>
+
+</body>
+</html>
